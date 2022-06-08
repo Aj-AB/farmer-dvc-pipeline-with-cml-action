@@ -10,7 +10,6 @@ stages:
     - path: data_raw.csv
       md5: a6aec8da63a5fa2619af025a76746f29
       size: 68868
-      isexec: true
   process:
     cmd: python process_data.py
     deps:
@@ -24,7 +23,6 @@ stages:
     - path: data_processed.csv
       md5: 03269b6c0a766dc80e090326008765b3
       size: 24227
-      isexec: true
   train:
     cmd: python train.py
     deps:
