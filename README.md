@@ -1,4 +1,4 @@
-# DVC pipeline with cml
+# cml
 
 Github
 git init 
@@ -21,5 +21,6 @@ Run the
 
 create .github/workflow/train.yaml
 
-branch to test
-
+branch test
+change the model to LinearDiscriminantAnalysis
+compare two model logistic and LinearDiscriminantAnalysis
