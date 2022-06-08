@@ -1,4 +1,4 @@
-# cml
+# farmer attitudes about climate change
 
 Github
 git init 
