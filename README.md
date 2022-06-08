@@ -1,4 +1,4 @@
-# farmer attitudes about climate change
+# Farmers attitudes about climate change
 
 Github
 git init 
